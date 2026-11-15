@@ -1,0 +1,21 @@
+{
+  "name": "json-renderers-run-options",
+  "version": "1.0.0",
+  "description": "Dynamic table feature and options instruction runner for JSON renderers",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npx @keshavsoft/build-cli"
+  },
+  "dependencies": {
+    "json-instruction-single": "^1.6.2",
+    "spec-repo": "file:../spec-repo"
+  }
+}
