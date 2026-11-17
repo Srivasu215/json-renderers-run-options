@@ -1,6 +1,6 @@
 {
   "name": "json-renderers-run-options",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "Dynamic table feature and options instruction runner for JSON renderers",
   "type": "module",
   "main": "src/index.js",
@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "json-instruction-single": "^1.6.2",
-    "spec-repo": "^1.7.6"
+    "spec-repo": "^1.15.1"
   }
 }
